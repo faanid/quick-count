@@ -1,9 +1,8 @@
-# Basic Counter
+# Counter
 
 Quick start:
 
 ```
 $ npm install
-$ npm start
+$ npm run dev
 ```
-Online site : https://famous-gingersnap-04df76.netlify.app
