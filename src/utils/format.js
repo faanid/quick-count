@@ -1,3 +1,3 @@
-export function formatNumber(num) {
+export const formatNumber = (num) => {
     return new Intl.NumberFormat().format(num);
 }

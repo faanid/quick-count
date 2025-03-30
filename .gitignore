@@ -9,3 +9,10 @@ node_modules/
 
 # Any other files that should be ignored
 *.log
+
+# Jest coverage reports
+/coverage
+
+# Jest cache
+/.jest-cache
+
