@@ -87,7 +87,7 @@ h2 {
 }
 
 #save-btn {
-    background: #1C7947;
+    background: #b40c9d;
 }
 
 #custom-btn {
@@ -95,11 +95,17 @@ h2 {
 }
 
 #reset-btn {
-    background: #3e4821;
+    background: #b6852a;
+}
+#reset-all-btn {
+    background: #7fa311;
 }
 
 #decrement-btn {
-    background: #ff4f4f;
+    background: #e60a0a;
+}
+#increment-plusbtn {
+    background: #117aa1;
 }
 
 #save-el {

@@ -28,6 +28,12 @@ export default class Counter {
     saveCount(this.count, this.storageKey);
   }
 
+  incrementBy5() {
+    this.count += 5;
+    this.updateDisplay();
+    saveCount(this.count, this.storageKey);
+  }
+
   save(saveEl) {
     const formattedCount = this.formatFn(this.count);
     saveEl.textContent += formattedCount + " - ";
@@ -40,6 +46,17 @@ export default class Counter {
     this.count = 0;
     this.updateDisplay();
     saveCount(this.count, this.storageKey);
+  }
+
+  resetAll() {
+    this.count = 0;
+    this.history = [];
+    this.updateDisplay();
+    saveCount(this.count, this.storageKey);
+    saveHistory(this.history, this.historyKey);
+
+    const saveEl = document.getElementById("save-el");
+    saveEl.textContent = "";
   }
 
   updateDisplay() {
